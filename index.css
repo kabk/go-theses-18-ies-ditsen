@@ -1,23 +1,368 @@
-head{
 
-	hoi
+@media screen {
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
 }
 
-body{
-	background-color: grey;
-background-image: url("BRIEFDESIGN-02.png");
+#ball{
+  margin:0;
+  position: 110px;
+}
+
+#menu {
+  background: grey;
+  border-bottom: 3px solid black; 
+text-decoration: none;
+  color: black;
+
+  top: 0;
+  left: 0;
+  height: 55px;  
+  width: 100%;
+  position: fixed; 
+  padding-top: 5px;
+  padding-left: 2f;
+  z-index: 999;
+
+}
+
+
+li {
+ /*  background-color: red; */
+  font-family: helvetica;
+  color: black;
+  display: inline-block;
+  font-size: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2.5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+#title {
+	font-size: 20px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+
+
+    .left {
+      animation: colorchange 1s; /* animation-name followed by duration in seconds
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 5s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background:  #FFC0CB;}
+      25%  {background:  #FFB6C1;}
+      50%  {background:  #DB7093;}
+      75%  {background:  #FFDAB9;}
+      100% {background:  #FFC0CB}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {*/
+    
+    }
+
+
+    .right {
+      animation: colorchange 100s; /* animation-name followed by duration in seconds
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background:  #003366;}
+      25%  {background:  #0033cc;}
+      50%  {background:  #006666;}
+      75%  {background:  #003366;}
+      100% {background:  #FFC0CB}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: blue;}
+      25%  {background: grey;}
+      50%  {background: white;}
+      75%  {background: grey;}
+      100% {background: grey;}
+    }
+
+
+
+#maintitle img {
+  width:8 0%;
+ position: relative;
+ top: 100px;
+ padding-left: 140px;
+
+}
+
+#question {
+  background-color: grey;
+  width: 100%;
+  padding-top:70px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  float: none;
+}
+
+
+
+/*#tweedesteen img {
+  width: 10%;
+ position: relative;
+ top: 120px;
+ padding-left: 100px;
+
+}*/
+
+#ondertitel {
+	font-family: times;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+   line-height: 1.2;
+	
+	margin-top: 100px;	
+}
+ 
+
+#abstract {
+  color: white;
+  font-size: 12pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+ /* hoogte bovenkant tekst!*/
+  margin-top: 150px;
+
+}
+
+.chaptertitle{ 
+
+  font-size: 12pt;
+  color: blue;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 25%;
+ /* hoogte van de tekst left*/
+
+}
+
+
+
+.chapter2{
+
+color: white;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+
+
+.left {
+   background-color: #CCCCCC; 
+  border-right: 3px solid black; 
+
+/*breedte van de strook, probeer eens 20%*/
+  width: 50%;
+  height: 50%);
+/*  moet height: calc(105vh - 4em); zijn*/
+
+margin-top: 40px;
+/*padding-bottom: 40px;*/
+
+  position: fixed;
+  display: inline-block;
+  float: left; 
+
+}
+
+
+.boxone{
+  border-top: 3px solid black; 
+/*breedte van de strook in .left, probeer eens 20%*/
+  width: 100%;
+  height: 500%;
+
+
+/*  moet 4 em zijn*/
+/*left: 255 px;*/
+  /*padding-top: 425px;
+  padding-bottom: 40px;*/
+/*  overflow: scroll;*/
+    /*top right bottom left*/
+/* position: fixed;
+  display: inline-block;
+  float: center; */
+}
+
+
+.boxtwo {
+   background-color: pink; 
+  border-top: 3px solid black; 
+/*  background-image: url(img/steen.gif);*/
 background-repeat: no-repeat;
-background-position: top;
-background-size: 700px;
-     
-}
-
-/*#hoi {
-
-	width: 20px;
-	height:100px;
-
-
+  width: 100%;
+  height: 50%;
+  padding-bottom: 100%;
+  display: inline-block;
 
 }
-*/
+
+
+.chapterref.emptyy {
+  
+color: white;
+padding-top: 20%;
+}
+
+
+.foot1{
+size: 100px;
+color: blue;
+
+
+}
+
+.right {
+  background-color: black;
+  width: 50%;
+  max-height: calc(100vh - 4em);
+
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: helvetica;
+  padding-bottom: 100%; 
+/*  was eerst margin-bottom:40px;*/
+  overflow: scroll;
+  word-break: keep-all;
+
+  display: inline-block; /*float in the same line*/
+  float: right;
+
+}
+
+
+#chapter1{
+color: white;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+  .references {
+
+  width: 100%;
+  color: white;
+  font-size: 20pt;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  line-height: 1.5;
+  /*padding: 0% 10% 0% 10%; */
+  margin-top: 5%;
+  padding: 15px 25PX 25PX 20PX;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only print {
+    
+button { 
+  display:none;
+
+}
+
+img {
+
+  display: none;
+}
+.right {
+  background-color: black;
+  width: 100%;
+  max-height: calc(100vh - 4em);
+
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: helvetica;
+  padding-bottom: 100%; 
+/*  was eerst margin-bottom:40px;*/
+  overflow: scroll;
+  word-break: keep-all;
+
+  display: inline-block; /*float in the same line*/
+  float: right;
+
+}
+
+
+.left {
+   background-color: #CCCCCC; 
+  border-right: 3px solid black; 
+
+/*breedte van de strook, probeer eens 20%*/
+  width: 0%;
+  height: 0%);
+/*  moet height: calc(105vh - 4em); zijn*/
+
+margin-top: 40px;
+/*padding-bottom: 40px;*/
+
+  position: fixed;
+  display: inline-block;
+  float: left; 
+
+}
+
+}
+
+}
+
+
+

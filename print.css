@@ -1,0 +1,27 @@
+
+@media print {
+   …
+}
+
+header nav, footer, button, menu, #menu, #li, .left {
+display: none;
+}
+
+
+img {
+max-width: 500px;
+}
+
+
+
+
+#abstract, #chapter1, #chapter2, #question, #ondertitel{
+
+font-size: 25px;
+font-family: courier;
+margin-left: 70px;
+margin-right: 70px;
+text-decoration: justify;
+
+}
+
