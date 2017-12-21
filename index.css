@@ -18,6 +18,7 @@
 #ball{
   margin:0;
   position: 110px;
+  width: 10%;
 }
 
 #menu {
@@ -53,6 +54,10 @@ a {
     text-decoration: none;
     color: white;
 }
+
+
+
+
 
 }
 
@@ -112,15 +117,36 @@ a {
 
 
 #maintitle img {
-  width:8 0%;
+  width: 80%;
  position: relative;
  top: 100px;
- padding-left: 140px;
+ padding-left: 90px;
 
 }
 
 #question {
-  background-color: grey;
+  background-color: white;
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  width: 100%;
+  padding-top:70px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  float: none;
+}
+
+
+#question2 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  background-color: white;
   width: 100%;
   padding-top:70px;
   padding-bottom: 20px;
@@ -137,13 +163,37 @@ a {
 
 
 
-/*#tweedesteen img {
-  width: 10%;
- position: relative;
- top: 120px;
- padding-left: 100px;
+#image {
+  background-color: black;
+  width: 100%;
+  height:50%;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+  
+}
 
-}*/
+#image img{
+
+  width: 70%;
+   margin-top:-25px;
+   margin-left: 80px;
+
+}
+
+
+
+#image img:hover {
+    color:blue;
+    width:130%;
+}
+
 
 #ondertitel {
 	font-family: times;
@@ -177,9 +227,34 @@ a {
 
 }
 
+#chapter1{
+color: white;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
 
 
-.chapter2{
+#chapter2{
+
+color: white;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter3{
+
+color: white;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter4{
 
 color: white;
 font-size: 15px;
@@ -189,15 +264,14 @@ padding: 0% 10% 0% 10%;
 }
 
 
-
-
 .left {
    background-color: #CCCCCC; 
   border-right: 3px solid black; 
+  height: calc(110vh - 4em);
 
 /*breedte van de strook, probeer eens 20%*/
   width: 50%;
-  height: 50%);
+/*  height: 50%);*/
 /*  moet height: calc(105vh - 4em); zijn*/
 
 margin-top: 40px;
@@ -214,7 +288,37 @@ margin-top: 40px;
   border-top: 3px solid black; 
 /*breedte van de strook in .left, probeer eens 20%*/
   width: 100%;
-  height: 500%;
+  /*height: 500%;*/
+
+}
+
+
+.boxthree {
+  position: relative;
+  background-color: white;
+  border-top: 3px solid black; 
+
+  width: 100%;
+  height: 50%;
+
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+.boxthree.empty {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: none;
+
+}
+
+  .quote {
+  color: white;
+  font-size: 25pt;
+  line-height: 1.5;
+  padding: 0% 5% 0% 5%; 
+
+}
 
 
 /*  moet 4 em zijn*/
@@ -242,11 +346,17 @@ background-repeat: no-repeat;
 }
 
 
+
+img {
+  width: 90%;
+}
+
+/*
 .chapterref.emptyy {
   
 color: white;
-padding-top: 20%;
-}
+padding-left: 20%;
+}*/
 
 
 .foot1{
@@ -277,26 +387,45 @@ color: blue;
 }
 
 
-#chapter1{
-color: white;
-font-size: 15px;
-font-family: helvetica;
-padding: 0% 10% 0% 10%; 
 
-}
 
 
   .references {
 
   width: 100%;
+  height: 50%;
   color: white;
-  font-size: 20pt;
+  font-size: 50pt;
   letter-spacing: 0px;
   word-spacing: -2px;
-  line-height: 1.5;
+  line-height: 1;
   /*padding: 0% 10% 0% 10%; */
-  margin-top: 5%;
+  margin-top: 20%;
   padding: 15px 25PX 25PX 20PX;
+
+}
+
+
+.references:hover {
+    color:blue;
+    background-color: white;
+    border-top: 3px solid black;
+}
+
+
+
+
+/* text hover and photo appears */
+
+i {
+  padding-bottom: 4px;
+  border-bottom: 0.1em solid #0033ff;
+  caption-side: bottom;
+  position: relative;
+}
+
+i:hover {color: #ffffff }
+
 
 }
 
@@ -319,8 +448,9 @@ button {
 
 img {
 
-  display: none;
-}
+  display: none; 
+} 
+
 .right {
   background-color: black;
   width: 100%;
@@ -345,6 +475,7 @@ img {
 .left {
    background-color: #CCCCCC; 
   border-right: 3px solid black; 
+
 
 /*breedte van de strook, probeer eens 20%*/
   width: 0%;

@@ -59,75 +59,75 @@
    
 
 
- var balls = [];
- var numBalls = 800;
+//  var balls = [];
+//  var numBalls = 800;
 
- var containerSize = 100;
- var ballSize = 7;
+//  var containerSize = 100;
+//  var ballSize = 7;
 
-function setup() {
+// function setup() {
 
-    var canvas = createCanvas(1000, 1000, 500, 500);
+//     var canvas = createCanvas(1000, 1000, 500, 500);
 
-    var theta = 0.0;
-    for (var i=0; i<numBalls; i++){
-        balls.push(new Ball(theta, ballSize));
-        theta+=0.4;
-    }
+//     var theta = 0.0;
+//     for (var i=0; i<numBalls; i++){
+//         balls.push(new Ball(theta, ballSize));
+//         theta+=0.4;
+//     }
 
-}
+// }
 
-function draw() {
+// function draw() {
 
-    background(0);
-    stroke(255);
-    noFill();
+//     background(0);
+//     stroke(255);
+//     noFill();
 
-    push();
+//     push();
 
-    translate(100/2, 100/2);
+//     translate(100/2, 100/2);
 
-    ellipse(0, 0, containerSize, containerSize);
+//     ellipse(0, 0, containerSize, containerSize);
     
-    for(var i=0; i<numBalls; i++){
+//     for(var i=0; i<numBalls; i++){
     
-        balls[i].show();
+//         balls[i].show();
         
-        stroke(255);
-        line(0, -containerSize/0, 0, containerSize/2);   
+//         stroke(255);
+//         line(0, -containerSize/0, 0, containerSize/2);   
 
-        rotate(PI/8.0);
-    }
+//         rotate(PI/8.0);
+//     }
 
-    for(var i=0; i<numBalls; i++){
-        balls[i].move();
-    }
+//     for(var i=0; i<numBalls; i++){
+//         balls[i].move();
+//     }
 
-    pop();
-} 
+//     pop();
+// } 
 
-function Ball(_theta, _ballSize){
+// function Ball(_theta, _ballSize){
 
-    this.size = _ballSize;
-    this.theta = _theta;
+//     this.size = _ballSize;
+//     this.theta = _theta;
 
-    this.show = function() {
-        fill(255);
-        noStroke();
-        ellipse(0,this.y,this.size,this.size);
-    }
+//     this.show = function() {
+//         fill(255);
+//         noStroke();
+//         ellipse(0,this.y,this.size,this.size);
+//     }
 
-    this.move = function() {
-        this.y = (sin(this.theta)) * (containerSize/2 - ballSize/2);
-        this.theta += 0.03;
-    }
-}
+//     this.move = function() {
+//         this.y = (sin(this.theta)) * (containerSize/2 - ballSize/2);
+//         this.theta += 0.03;
+//     }
+// }
 
-function windowResized() {
+// function windowResized() {
 
-    resizeCanvas(100, 100);
+//     resizeCanvas(100, 100);
 
-}
+// }
 
 
 

@@ -3,7 +3,7 @@
    …
 }
 
-header nav, footer, button, menu, #menu, #li, .left {
+header nav, footer, button, menu, #menu, #li, .left, img {
 display: none;
 }
 
@@ -15,13 +15,23 @@ max-width: 500px;
 
 
 
-#abstract, #chapter1, #chapter2, #question, #ondertitel{
+.right, #abstract, #chapter1, #chapter2, #chapter3, #chapter4, #question, #ondertitel{
 
 font-size: 25px;
 font-family: courier;
-margin-left: 70px;
-margin-right: 70px;
+/*margin-left: 1px;
+margin-right: 0px;*/
 text-decoration: justify;
 
 }
 
+.right {
+
+	width: 100%;
+}
+
+
+.right {
+	page-break-before: always;
+
+}
