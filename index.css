@@ -148,12 +148,29 @@ a {
   border-top: 3px solid black; 
   background-color: white;
   width: 100%;
-  padding-top:70px;
+  padding-top:65px;
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: left;
-  letter-spacing: 0px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  float: none;
+}
+
+
+#question3 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  background-color: white;
+  width: 100%;
+  padding-top:65px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
   word-spacing: -2px;
   font-size: 20px;
   line-height: 1.5;
@@ -182,17 +199,20 @@ a {
 #image img{
 
   width: 70%;
-   margin-top:-25px;
+   margin-top:-10px;
    margin-left: 80px;
+   
 
 }
 
 
 
-#image img:hover {
+/*#image img:hover {
     color:blue;
     width:130%;
-}
+      border-color: #9ecaed;
+    box-shadow: 0 0 100px #9ecaed;
+}*/
 
 
 #ondertitel {
@@ -202,7 +222,16 @@ a {
 	text-align: center;
    line-height: 1.2;
 	
-	margin-top: 100px;	
+	margin-top: 200px;
+  margin-bottom: 200px;	
+}
+
+
+#ondertitel :hover {
+font-size: 50px;
+color:white;
+font-family: "Blackoak Std";
+
 }
  
 
@@ -396,20 +425,26 @@ color: blue;
   height: 50%;
   color: white;
   font-size: 50pt;
+  padding-left: 50px;
+  padding-right: 50px;
   letter-spacing: 0px;
   word-spacing: -2px;
   line-height: 1;
   /*padding: 0% 10% 0% 10%; */
   margin-top: 20%;
-  padding: 15px 25PX 25PX 20PX;
+  padding: 15px 50PX 25PX 20PX;
 
 }
 
 
 .references:hover {
-    color:blue;
+    color:black;
     background-color: white;
     border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-family: "Blackoak Std";
+    font-size: 40px;
+    margin-top: 20%;
 }
 
 

@@ -13,8 +13,7 @@ max-width: 500px;
 }
 
 
-
-
+ 
 .right, #abstract, #chapter1, #chapter2, #chapter3, #chapter4, #question, #ondertitel{
 
 font-size: 25px;
@@ -22,6 +21,7 @@ font-family: courier;
 /*margin-left: 1px;
 margin-right: 0px;*/
 text-decoration: justify;
+
 
 }
 
