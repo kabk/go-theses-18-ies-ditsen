@@ -22,7 +22,7 @@
 }
 
 #menu {
-  background: grey;
+  background: white;
   border-bottom: 3px solid black; 
 text-decoration: none;
   color: black;
@@ -32,11 +32,12 @@ text-decoration: none;
   height: 55px;  
   width: 100%;
   position: fixed; 
-  padding-top: 5px;
-  padding-left: 2f;
+  padding-top: 2px;
+  padding-left: 2;
   z-index: 999;
 
 }
+
 
 
 li {
@@ -44,18 +45,24 @@ li {
   font-family: helvetica;
   color: black;
   display: inline-block;
-  font-size: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 2.5px;
+  margin-top: 15px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 15px;
 }
 
+a:hover{
 
+font-style: italic;
+text-decoration: underline;
+text-shadow: 1px 0px 30px DarkCyan;
+
+}
 
 
 
@@ -69,7 +76,7 @@ a {
 
 
 
-    .left {
+  /*  #image  {
       animation: colorchange 1s; /* animation-name followed by duration in seconds
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchange 5s; /* Chrome and Safari */
@@ -89,7 +96,7 @@ a {
     
     }
 
-
+/*
     .right {
       animation: colorchange 100s; /* animation-name followed by duration in seconds
          /* you could also use milliseconds (ms) or something like 2.5s */
@@ -122,68 +129,247 @@ a {
  top: 100px;
  padding-left: 90px;
 
+ font-size: 50px;
+color:black;
+font-family: "PWJAZZY";
+
 }
 
+
+
+#pessimist:hover{
+
+ /* background-color: blue;*/
+text-shadow: 2px 0px 30px #285C4D;
+
+
+}
+
+#optimist:hover {
+
+  text-shadow: 1px 0px 50px   #7C6992;
+/*  text-shadow: 2px 0px 11px brown;*/
+  blur-radius: ;
+
+/*text-shadow: 2px 0px 110px blue;
+color:white;
+background-color:black;*/
+ 
+}
+
+#verteller:hover{
+text-shadow: 1px 0px 30px #00778B;
+
+
+/*text-shadow: 2px 0px 11px #CE9156;*/
+
+}
+
+
 #question {
-  background-color: white;
   border-bottom: 3px solid black; 
   border-top: 3px solid black; 
   width: 100%;
-  padding-top:70px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
-  letter-spacing: 0px;
-  word-spacing: -2px;
-  font-size: 20px;
-  line-height: 1.5;
 
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: lightgrey;
+
+  padding: 10% 10% 0% 10%; /*top,right,bottom,left /*
+  padding-top:70px;
+  /*padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;*/
+  text-align: left;
   float: none;
+
 }
 
+#question:hover{
+
+  background-color: #D9D9D6;
+  /* #EAECEE;*/
+ 
+}
+
+
+#question1 {
+  border-bottom: 3px solid black; 
+  width: 100%;
+ background-color: lightgrey;
+  padding: 0% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+
+}
 
 #question2 {
   border-bottom: 3px solid black; 
-  border-top: 3px solid black; 
+  border-top: 3px solid black;
   background-color: white;
   width: 100%;
-  padding-top:65px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
-  word-spacing: -2px;
-  font-size: 20px;
-  line-height: 1.5;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
 
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
   float: none;
+
 }
+
+
 
 
 #question3 {
-  border-bottom: 3px solid black; 
-  border-top: 3px solid black; 
+   border-bottom: 3px solid black; 
+  border-top: 3px solid black;
   background-color: white;
   width: 100%;
-  padding-top:65px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
-  word-spacing: -2px;
-  font-size: 20px;
-  line-height: 1.5;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
 
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
   float: none;
 }
+
+
+
+#question4 {
+   border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+
+#question5 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+
+#question6 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+#question7 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
 
 
 
 #image {
-  background-color: black;
+  background-color: white;
   width: 100%;
-  height:50%;
+  height:85%; /*50*/
   padding-top:50px;
   padding-bottom: 50px;
   padding-left: 50px;
@@ -198,12 +384,35 @@ a {
 
 #image img{
 
-  width: 70%;
-   margin-top:-10px;
-   margin-left: 80px;
-   
+  width: 75%;
+   margin-top: 0px;
+
+   position: absolute;
+   vertical-align: middle;
+   top: 1%;
+   left: 50%;
+   transform: translate(-50%,0);
 
 }
+
+
+
+.display {
+  opacity: 1;
+
+}
+
+.disappear {
+  opacity: 0;
+}
+
+
+
+
+
+/*a #kip {
+  text-decoration: none;
+}*/
 
 
 
@@ -216,34 +425,32 @@ a {
 
 
 #ondertitel {
-	font-family: times;
-	font-size: 50px;
-	color: white;
+	font-family: "times";
+	font-size: 100px;
+	color: black;
 	text-align: center;
-   line-height: 1.2;
+  line-height: 110px;
 	
-	margin-top: 200px;
-  margin-bottom: 200px;	
+	margin-top: 50px;
+  margin-bottom: 30px;	
 }
 
 
 #ondertitel :hover {
-font-size: 50px;
-color:white;
-font-family: "Blackoak Std";
+text-shadow: 1px 0px 30px DarkCyan;
 
 }
  
-
+/*
 #abstract {
   color: white;
   font-size: 12pt;
   line-height: 1.5;
   padding: 0% 10% 0% 10%; 
- /* hoogte bovenkant tekst!*/
-  margin-top: 150px;
 
-}
+  margin-top: 50px;
+
+}*/
 
 .chaptertitle{ 
 
@@ -257,7 +464,7 @@ font-family: "Blackoak Std";
 }
 
 #chapter1{
-color: white;
+color: black;
 font-size: 15px;
 font-family: helvetica;
 padding: 0% 10% 0% 10%; 
@@ -265,27 +472,58 @@ padding: 0% 10% 0% 10%;
 }
 
 
-#chapter2{
 
-color: white;
+#chapter1:hover{
+
+  background-color: #BCC9C5;
+}
+
+
+.chapter2{
+
+color: black;
 font-size: 15px;
 font-family: helvetica;
 padding: 0% 10% 0% 10%; 
 
+}
+
+.chapter2:hover{
+
+  background-color: #B1C0BC;
 }
 
 #chapter3{
 
-color: white;
+color: black;
 font-size: 15px;
 font-family: helvetica;
 padding: 0% 10% 0% 10%; 
 
+}
+
+#chapter3:hover{
+
+  background-color: #9DB0AC;
 }
 
 #chapter4{
 
-color: white;
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter4:hover{
+
+  background-color: #829995;
+}
+
+#chapter5{
+
+color: black;
 font-size: 15px;
 font-family: helvetica;
 padding: 0% 10% 0% 10%; 
@@ -293,8 +531,43 @@ padding: 0% 10% 0% 10%;
 }
 
 
+#chapter5:hover{
+  background-color: #5D7975;
+}
+
+#chapter6{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+#chapter6:hover{
+
+  background-color: #3E5D58;
+}
+
+#chapter7{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter7:hover{
+
+  background-color: #3E5D55;
+}
+
+
+
 .left {
-   background-color: #CCCCCC; 
+   background-color: white; 
   border-right: 3px solid black; 
   height: calc(110vh - 4em);
 
@@ -303,7 +576,7 @@ padding: 0% 10% 0% 10%;
 /*  height: 50%);*/
 /*  moet height: calc(105vh - 4em); zijn*/
 
-margin-top: 40px;
+ margin-top: 40px;
 /*padding-bottom: 40px;*/
 
   position: fixed;
@@ -313,13 +586,16 @@ margin-top: 40px;
 }
 
 
-.boxone{
-  border-top: 3px solid black; 
-/*breedte van de strook in .left, probeer eens 20%*/
-  width: 100%;
-  /*height: 500%;*/
 
-}
+/*.boxone{
+  border-top: 3px solid black; 
+  background-color: white;
+   width: 100%;
+
+}*/
+/*breedte van de strook in .left, probeer eens 20%*/
+
+
 
 
 .boxthree {
@@ -396,7 +672,7 @@ color: blue;
 }
 
 .right {
-  background-color: black;
+  background-color: white;
   width: 50%;
   max-height: calc(100vh - 4em);
 
@@ -419,27 +695,29 @@ color: blue;
 
 
 
-  .references {
+.references {
 
   width: 100%;
   height: 50%;
   color: white;
-  font-size: 50pt;
-  padding-left: 50px;
-  padding-right: 50px;
-  letter-spacing: 0px;
+  background-color: black;
+  font-family: helvetica;
+  font-size: 14pt;
+  padding-left: 40px;
+  padding-right: 40px;
   word-spacing: -2px;
   line-height: 1;
-  /*padding: 0% 10% 0% 10%; */
-  margin-top: 20%;
-  padding: 15px 50PX 25PX 20PX;
+  padding: 0% 20% 20% 5%; 
+  margin-top: 20px;
+/*  padding: 15px 50PX 25PX 20PX;*/
+  display:none;
 
 }
 
 
 .references:hover {
-    color:black;
-    background-color: white;
+    color:blue;
+    background-color: blue;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     font-family: "Blackoak Std";
@@ -466,8 +744,7 @@ i:hover {color: #ffffff }
 
 
 
-
-
+}
 
 
 
@@ -487,17 +764,13 @@ img {
 } 
 
 .right {
-  background-color: black;
+
+  background-color: white;
   width: 100%;
   max-height: calc(100vh - 4em);
 
-  letter-spacing: 1px;
-  word-spacing: -2px;
-  font-size: 20px;
-  line-height: 1.5;
   font-family: helvetica;
   padding-bottom: 100%; 
-/*  was eerst margin-bottom:40px;*/
   overflow: scroll;
   word-break: keep-all;
 
@@ -508,8 +781,9 @@ img {
 
 
 .left {
-   background-color: #CCCCCC; 
-  border-right: 3px solid black; 
+   background-color: white; 
+    border-right: 3px solid black; 
+
 
 
 /*breedte van de strook, probeer eens 20%*/

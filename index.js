@@ -1,16 +1,18 @@
 
+
+
     $( function( ) {
       var content_div = $( '.right' );
       var content_offset = content_div.offset( ).top;
 
       var highlight_div = $( '.boxone');
-      var highlight_subs = highlight_div.find( '> div' );
+      var highlight_subs = highlight_div.find( 'div' );
 
 
-      var image_div = $( '.boxtwo' );
+      var image_div = $( '.question' ); //was eerst .boxtwo
       var ref_div = $( '.references emptyy' );
 
-      var content_subs = content_div.find( '> div' );
+      var content_subs = content_div.find( 'div' );
       content_div.on( 'scroll', function( ) {
         var content_hgt = content_div.height( )
                 + content_offset;
@@ -56,7 +58,93 @@
       
       content_div.find( 'i' ).hover( showHighlight, hideHighlights );
     } );
-   
+  
+
+
+// $(document).scroll(function () {
+//     //stick nav to top of page
+//     var y = $('this').scrollTop();
+//     var navWrap = $('#question').offset().top;
+//     if (y > 800) {
+//         $('div').fadeIn('references');
+//     } else {
+//         $('div').fadeOut('references');
+//     }
+// });
+
+
+
+
+
+$(function() {
+    $(".kip").hover(function() {
+            $("#kipimg").toggleClass("disappear");
+            $(".start").addClass("disappear");
+    });
+
+$(".kip1").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg1").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+ $(".kip2").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg2").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+$(".kip3").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg3").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+$(".kip4").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg4").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+$(".kip5").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg5").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+$(".kip6").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg6").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+$(".kip7").hover(function() { //kip is class van stukje tekst 
+            $("#kipimg7").toggleClass("disappear"); //afbeelding tevoorschijn
+            $(".start").addClass("disappear"); //eerste afbeelding uit
+    });
+
+
+
+
+});
+
+
+
+
+
+
+// $(function() {
+// $('.kip').hover(
+//        function(){ $(#kipimg).addClass('display') },
+//        function(){ $(#kipimg).removeClass('display') }
+// );
+// });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //  var balls = [];
