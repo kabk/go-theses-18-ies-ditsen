@@ -1,0 +1,808 @@
+
+@media screen {
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
+#ball{
+  margin:0;
+  position: 110px;
+  width: 10%;
+}
+
+#menu {
+  background: white;
+  border-bottom: 3px solid black; 
+text-decoration: none;
+  color: black;
+
+  top: 0;
+  left: 0;
+  height: 55px;  
+  width: 100%;
+  position: fixed; 
+  padding-top: 2px;
+  padding-left: 2;
+  z-index: 999;
+
+}
+
+
+
+li {
+ /*  background-color: red; */
+  font-family: helvetica;
+  color: black;
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+a:hover{
+
+font-style: italic;
+text-decoration: underline;
+text-shadow: 1px 0px 30px DarkCyan;
+
+}
+
+
+
+}
+
+#title {
+	font-size: 20px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+
+
+  /*  #image  {
+      animation: colorchange 1s; /* animation-name followed by duration in seconds
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 5s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background:  #FFC0CB;}
+      25%  {background:  #FFB6C1;}
+      50%  {background:  #DB7093;}
+      75%  {background:  #FFDAB9;}
+      100% {background:  #FFC0CB}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {*/
+    
+    }
+
+/*
+    .right {
+      animation: colorchange 100s; /* animation-name followed by duration in seconds
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background:  #003366;}
+      25%  {background:  #0033cc;}
+      50%  {background:  #006666;}
+      75%  {background:  #003366;}
+      100% {background:  #FFC0CB}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: blue;}
+      25%  {background: grey;}
+      50%  {background: white;}
+      75%  {background: grey;}
+      100% {background: grey;}
+    }
+
+
+
+#maintitle img {
+  width: 80%;
+ position: relative;
+ top: 100px;
+ padding-left: 90px;
+
+ font-size: 50px;
+color:black;
+font-family: "PWJAZZY";
+
+}
+
+
+
+#pessimist:hover{
+
+ /* background-color: blue;*/
+text-shadow: 2px 0px 30px #285C4D;
+
+
+}
+
+#optimist:hover {
+
+  text-shadow: 1px 0px 50px   #7C6992;
+/*  text-shadow: 2px 0px 11px brown;*/
+  blur-radius: ;
+
+/*text-shadow: 2px 0px 110px blue;
+color:white;
+background-color:black;*/
+ 
+}
+
+#verteller:hover{
+text-shadow: 1px 0px 30px #00778B;
+
+
+/*text-shadow: 2px 0px 11px #CE9156;*/
+
+}
+
+
+#question {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black; 
+  width: 100%;
+
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: lightgrey;
+
+  padding: 10% 10% 0% 10%; /*top,right,bottom,left /*
+  padding-top:70px;
+  /*padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;*/
+  text-align: left;
+  float: none;
+
+}
+
+#question:hover{
+
+  background-color: #D9D9D6;
+  /* #EAECEE;*/
+ 
+}
+
+
+#question1 {
+  border-bottom: 3px solid black; 
+  width: 100%;
+ background-color: lightgrey;
+  padding: 0% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+
+}
+
+#question2 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+
+}
+
+
+
+
+#question3 {
+   border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+#question4 {
+   border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+
+#question5 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+
+#question6 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+#question7 {
+  border-bottom: 3px solid black; 
+  border-top: 3px solid black;
+  background-color: white;
+  width: 100%;
+  padding: 10% 0% 5% 10%;
+/*padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 250px;*/
+
+  background-color: lightgrey;
+  font-size: 100px;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  float: none;
+}
+
+
+
+
+#image {
+  background-color: white;
+  width: 100%;
+  height:85%; /*50*/
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+  
+}
+
+#image img{
+
+  width: 75%;
+   margin-top: 0px;
+
+   position: absolute;
+   vertical-align: middle;
+   top: 1%;
+   left: 50%;
+   transform: translate(-50%,0);
+
+}
+
+
+
+.display {
+  opacity: 1;
+
+}
+
+.disappear {
+  opacity: 0;
+}
+
+
+
+
+
+/*a #kip {
+  text-decoration: none;
+}*/
+
+
+
+/*#image img:hover {
+    color:blue;
+    width:130%;
+      border-color: #9ecaed;
+    box-shadow: 0 0 100px #9ecaed;
+}*/
+
+
+#ondertitel {
+	font-family: "times";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+  line-height: 110px;
+	
+	margin-top: 50px;
+  margin-bottom: 30px;	
+}
+
+
+#ondertitel :hover {
+text-shadow: 1px 0px 30px DarkCyan;
+
+}
+ 
+/*
+#abstract {
+  color: white;
+  font-size: 12pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+
+  margin-top: 50px;
+
+}*/
+
+.chaptertitle{ 
+
+  font-size: 12pt;
+  color: blue;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 25%;
+ /* hoogte van de tekst left*/
+
+}
+
+#chapter1{
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+
+#chapter1:hover{
+
+  background-color: #BCC9C5;
+}
+
+
+.chapter2{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+.chapter2:hover{
+
+  background-color: #B1C0BC;
+}
+
+#chapter3{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter3:hover{
+
+  background-color: #9DB0AC;
+}
+
+#chapter4{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter4:hover{
+
+  background-color: #829995;
+}
+
+#chapter5{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+#chapter5:hover{
+  background-color: #5D7975;
+}
+
+#chapter6{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+
+#chapter6:hover{
+
+  background-color: #3E5D58;
+}
+
+#chapter7{
+
+color: black;
+font-size: 15px;
+font-family: helvetica;
+padding: 0% 10% 0% 10%; 
+
+}
+
+#chapter7:hover{
+
+  background-color: #3E5D55;
+}
+
+
+
+.left {
+   background-color: white; 
+  border-right: 3px solid black; 
+  height: calc(110vh - 4em);
+
+/*breedte van de strook, probeer eens 20%*/
+  width: 50%;
+/*  height: 50%);*/
+/*  moet height: calc(105vh - 4em); zijn*/
+
+ margin-top: 40px;
+/*padding-bottom: 40px;*/
+
+  position: fixed;
+  display: inline-block;
+  float: left; 
+
+}
+
+
+
+/*.boxone{
+  border-top: 3px solid black; 
+  background-color: white;
+   width: 100%;
+
+}*/
+/*breedte van de strook in .left, probeer eens 20%*/
+
+
+
+
+.boxthree {
+  position: relative;
+  background-color: white;
+  border-top: 3px solid black; 
+
+  width: 100%;
+  height: 50%;
+
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+.boxthree.empty {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: none;
+
+}
+
+  .quote {
+  color: white;
+  font-size: 25pt;
+  line-height: 1.5;
+  padding: 0% 5% 0% 5%; 
+
+}
+
+
+/*  moet 4 em zijn*/
+/*left: 255 px;*/
+  /*padding-top: 425px;
+  padding-bottom: 40px;*/
+/*  overflow: scroll;*/
+    /*top right bottom left*/
+/* position: fixed;
+  display: inline-block;
+  float: center; */
+}
+
+
+.boxtwo {
+   background-color: pink; 
+  border-top: 3px solid black; 
+/*  background-image: url(img/steen.gif);*/
+background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  padding-bottom: 100%;
+  display: inline-block;
+
+}
+
+
+
+img {
+  width: 90%;
+}
+
+/*
+.chapterref.emptyy {
+  
+color: white;
+padding-left: 20%;
+}*/
+
+
+.foot1{
+size: 100px;
+color: blue;
+
+
+}
+
+.right {
+  background-color: white;
+  width: 50%;
+  max-height: calc(100vh - 4em);
+
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: helvetica;
+  padding-bottom: 100%; 
+/*  was eerst margin-bottom:40px;*/
+  overflow: scroll;
+  word-break: keep-all;
+
+  display: inline-block; /*float in the same line*/
+  float: right;
+
+}
+
+
+
+
+
+.references {
+
+  width: 100%;
+  height: 50%;
+  color: white;
+  background-color: black;
+  font-family: helvetica;
+  font-size: 14pt;
+  padding-left: 40px;
+  padding-right: 40px;
+  word-spacing: -2px;
+  line-height: 1;
+  padding: 0% 20% 20% 5%; 
+  margin-top: 20px;
+/*  padding: 15px 50PX 25PX 20PX;*/
+  display:none;
+
+}
+
+
+.references:hover {
+    color:blue;
+    background-color: blue;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-family: "Blackoak Std";
+    font-size: 40px;
+    margin-top: 20%;
+}
+
+
+
+
+/* text hover and photo appears */
+
+i {
+  padding-bottom: 4px;
+  border-bottom: 0.1em solid #0033ff;
+  caption-side: bottom;
+  position: relative;
+}
+
+i:hover {color: #ffffff }
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media only print {
+    
+button { 
+  display:none;
+
+}
+
+img {
+
+  display: none; 
+} 
+
+.right {
+
+  background-color: white;
+  width: 100%;
+  max-height: calc(100vh - 4em);
+
+  font-family: helvetica;
+  padding-bottom: 100%; 
+  overflow: scroll;
+  word-break: keep-all;
+
+  display: inline-block; /*float in the same line*/
+  float: right;
+
+}
+
+
+.left {
+   background-color: white; 
+    border-right: 3px solid black; 
+
+
+
+/*breedte van de strook, probeer eens 20%*/
+  width: 0%;
+  height: 0%);
+/*  moet height: calc(105vh - 4em); zijn*/
+
+margin-top: 40px;
+/*padding-bottom: 40px;*/
+
+  position: fixed;
+  display: inline-block;
+  float: left; 
+
+}
+
+}
+
+}
+
+
+
